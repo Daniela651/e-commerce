@@ -1,0 +1,108 @@
+.container-fluid{
+height: 110px;
+
+}
+body .navbar{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+
+}
+.logo{
+     width: 106px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 45px;
+}
+.carrito{
+ width: 96px;
+
+}
+.nombre{
+      display: contents;
+      font-size: xx-large;
+}
+.container{
+    margin-top: 5px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+   margin: 0 auto;
+   padding: 10px;
+}
+body .card {
+  width: 18rem;
+  height: 100%; 
+  display: flex;
+  flex-direction: column;
+    border-radius: 4% ;
+    border: 2px solid #405d34;
+    
+
+}
+
+.card-title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 3em; 
+  line-height: 1.5em;
+}
+
+body .card-img-top {
+  border-radius: 6%;
+  height: 200px;         
+  width: 100%;
+  object-fit: contain;    
+  background-color: #f8f9fa; 
+  padding: 10px;          
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+  border-radius: 50%;
+}
+
+#carouselImagenes {
+  max-height: 300px;
+  overflow: hidden;
+}
+
+#carouselImagenes .carousel-item {
+  text-align: center;
+}
+
+#carouselImagenes .carousel-item img {
+  max-height: 300px;
+  width: auto;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.titulo{
+  color: #405d34;
+  margin:  auto;    
+      
+}
+
+.navbar{
+  background-color: antiquewhite;
+}
+
+.btn, .btn-primary{
+border-color: #405d34 !important;
+background-color: #405d34 !important;
+}
+
+.btn-comprar{
+
+  margin-left: 50%;
+}
+
